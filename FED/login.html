@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <h2>Enter your valid credentials to login.</h2>
+    <label for="username">Username</label>
+    <input type="text" id="username" placeholder="Username" onchange="handleInput(event)">
+    <br>
+
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="Password" onchange="handleInput(event)">
+    <br>
+
+    <button id="loginBtn" onClick="login(event)">Login</button>
+    <script src="login.js"></script>
+</body>
+</html>
